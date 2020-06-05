@@ -26,7 +26,7 @@ const initialState: TodoState = {
     }
 };
 
-createSlice({
+export default createSlice({
     name,
     initialState,
     reducers: {
