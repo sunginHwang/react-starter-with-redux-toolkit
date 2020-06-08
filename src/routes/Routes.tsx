@@ -1,8 +1,8 @@
 import React from 'react';
 import {Route, Switch} from 'react-router';
 import loadable from '@loadable/component';
-import todo from "../pages/Todo";
 
+const todo = loadable(() => import('../pages/Todo'))
 
 function Routes() {
 
