@@ -1,5 +1,5 @@
 export type AsyncState<P> = {
-    loading: boolean;
-    data: P;
-    error?: any;
-}
+  loading: boolean;
+  data: P;
+  error?: any;
+};
